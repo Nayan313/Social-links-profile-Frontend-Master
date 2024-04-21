@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --card-Color: #1f1f1f;
+    --btn-color: #333333;
+    --active: #c4f82a;
+}
+
+body {
+    background-color: #141414;
+    font-family: "Inter", sans-serif;
+    color: aliceblue;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color:var(--active); }
+.main {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 280px;
+    padding: 20px;
+    background-color: var(--card-Color);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.card .main-detail{
+    padding: 10px 0;
+}
+.card .location{
+    color: var(--active);
+    margin: 4px 0;
+}
+.card h6{
+    font-weight: 200;
+    margin: 8px 0;
+}
+.card a{
+    font-size: 14px;
+    background-color: var(--btn-color);
+    padding: 12px 0;
+    width: 100%;
+    margin: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.card a:hover{
+    background-color: var(--active);
+    color: var(--btn-color);
+}
